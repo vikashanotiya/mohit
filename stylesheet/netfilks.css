@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w-50 p{
+
+    /* word-spacing: 8px; */
+    /* line-height: 35px; */
+    color: white;
+    /* margin: 12px;  */
+    font-size: 20px;
+    padding-top: 5px;
+    margin-left: 9px;
+
+}
+body{
+    background-color: rgb(55, 53, 53);
+}
+h1{
+    color: white;
+    font-size: 60px;
+    margin:20px 0px 0px 12px;
+    /* color: red; */
+    font-weight: bold;
+    /* padding-top: 1px; */
+}
+.w-50{
+    /* background-color: rgb(56, 42, 42); */
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.w-50{
+    width:50%;
+    /* background-color: rgb(56, 42, 42); */
+
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* scroll 1st */
+.scroll{
+    display:flex;
+    overflow: auto;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    
+}
+.w-30{
+    width:30%;
+    flex-shrink: 0;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-left: 15px;
+    
+}
+img{
+    width:100%;
+    /* margin: auto; */
+    display: block
+    
+}
+.w-30 p{
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none; 
+}
+.w-100 h2{
+    color: white ;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.footer{
+    font-size: 22px; 
+    color: white;  
+}
+.foot{
+    margin-top: 190px;
+    text-align: center;
+    margin-bottom: 170px; 
+}
+button{
+    padding: 18px;
+    background-color: red; 
+    color: white;
+    font-size: 9px;
+    border-radius: 12px;
+
+
+}
+.btnn{
+    margin-top: 30px;
+    font-size:20px;
+    padding: 20px;
+
+}
+button{
+    margin-top: 40px;
+    font-size: 23px;
+
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:80%;
+    background-color: rgb(55, 53, 53);
+}
+.last p{
+    font-size: 18px;
+    color: white;
+     margin: 10px;
+
+}
+.read{
+    font-size: 32px;
+}
+.option{
+    margin-left: 10px;
+    padding: 12px;
+}
+select{
+    padding: 13px;
+    border: 2px solid white ;
+    background-color:black;
+    color: white;
+
+}
+select option{
+    padding: 15px;  
+}
+/* media query */
+@media screen and (max-width:576px){
+    .main{
+        width: 100%;
+    }
+    .netflix{
+        width:100%;
+    }
+    .JOIN,p{
+        width: 100%;
+    }
+    .btn{
+        width:100%;
+    }
+}
+@media screen and (min-width:576px){
+    .main{
+        width: 100%;
+    }
+    .netflix{
+        width:50%;
+    }
+    .JOIN,p{
+        width: 50%;
+    }
+    .btn{
+        width:50%;
+    }
+}
+@media screen and (max-width:576px){
+    .movies{
+        width:100%;
+
+    }
+    .w-50{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:576px){
+    .w-50{
+        width:100%;
+    }
+}
+       
+@media screen and (max-width:576px){
+
+}
+    .scroll{
+        width:100%;
+    }
+    .w-30{
+        width:40%;
+    }
+
+@media screen and (min-width:576px){
+    .w-30{
+        width:50%;
+    }
+}
+@media screen and(min-width:768px){
+    .w-30{
+        width:70%;
+    }
+}
+@media screen and (min-width:992px){
+    .w-30{
+        width:90%;
+    }
+}
+/* last */
+
+@media screen and (max-width:576px){
+    .foo{
+        width:100%;
+    }
+    h2{
+        width:100%;
+        margin-bottom: 100px;
+
+    }
+}
+@media screen and (min-width:576px){
+    h2{
+        width:40%;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width:576px){
+    .twelve,p{
+        width:100%;
+    }
+}
+@media screen and (min-width:576px){
+    .twelve,p{
+        width:50%;
+    }
+}
+  
+
+
+
